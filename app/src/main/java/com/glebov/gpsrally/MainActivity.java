@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
         ListView listView = (ListView) findViewById(R.id.listView);
         View v = getLayoutInflater().inflate(R.layout.header_row, null);
-        listView.addHeaderView(v);
+        //listView.addHeaderView(v);
         // Assign adapter to ListView
         listView.setAdapter(dataAdapter);
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
