@@ -87,16 +87,15 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
 
     public boolean deleteAllRoutes() {
-        int doneDelete = 0;
-        doneDelete = mDb.delete(SQLITE_TABLE, null, null);
+        int doneDelete = mDb.delete(SQLITE_TABLE, null, null);
         Log.w(TAG, Integer.toString(doneDelete));
         return doneDelete > 0;
     }
 
     public void insertSome() {
-        createRouteEntry(0, 1000, 1000, 30, 40);
-        createRouteEntry(0, 2000, 1000, 60, 20);
-        createRouteEntry(0, 3000, 100, 90, 10);
-        createRouteEntry(0, 3100, 900, 10, 80);
+        createRouteEntry(1, 1000, 1000, 30, 40);
+        createRouteEntry(2, 2000, 1000, 60, 20);
+        createRouteEntry(3, 3000, 100, 90, 10);
+        createRouteEntry(4, 3100, 900, 10, 80);
     }
 }

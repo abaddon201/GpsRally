@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     EditText planedDistance;
@@ -66,6 +67,12 @@ public class MainActivity extends AppCompatActivity {
         listView.addHeaderView(v);
         // Assign adapter to ListView
         listView.setAdapter(dataAdapter);
-
+        listView.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                Toast.makeText(MainActivity.this, "long tap",Toast.LENGTH_SHORT).show();
+                return false;
+            }
+        });
     }
 }

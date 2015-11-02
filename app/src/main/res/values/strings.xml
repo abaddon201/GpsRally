@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">GpsRally</string>
-    <string name="avg_speed">AvgSpeed</string>
+    <string name="avg_speed">Avg. Speed</string>
     <string name="distance">Distance</string>
     <string name="full_distance">Full distance</string>
     <string name="number">Number</string>
     <string name="speed">Speed</string>
     <string name="time">Time</string>
+    <string name="current">Current</string>
+    <string name="scheduled">Scheduled</string>
+    <string name="total_distance">Total distance</string>
+    <string name="next">Next</string>
 </resources>

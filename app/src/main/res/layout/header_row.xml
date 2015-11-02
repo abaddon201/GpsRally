@@ -9,15 +9,15 @@
         android:layout_weight="0.20"
         android:layout_height="wrap_content"
         android:text="@string/number"
-        android:textSize="20px"></TextView>
+        android:textSize="20px"/>
 
     <TextView
         android:id="@+id/row_full_distance"
         android:layout_width="0dp"
         android:layout_weight="0.20"
         android:layout_height="wrap_content"
-        android:text="@string/full_distance"
-        android:textSize="20px"></TextView>
+        android:text="@string/total_distance"
+        android:textSize="20px"/>
 
     <TextView
         android:id="@+id/row_distance"
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.20"
         android:text="@string/distance"
-        android:textSize="20px"></TextView>
+        android:textSize="20px"/>
 
     <TextView
         android:id="@+id/row_speed"
@@ -33,7 +33,7 @@
         android:layout_weight="0.20"
         android:layout_height="wrap_content"
         android:text="@string/speed"
-        android:textSize="20px"></TextView>
+        android:textSize="20px"/>
 
     <TextView
         android:id="@+id/row_time"
@@ -41,6 +41,6 @@
         android:layout_weight="0.20"
         android:layout_height="wrap_content"
         android:text="@string/time"
-        android:textSize="20px"></TextView>
+        android:textSize="20px"/>
 
 </LinearLayout>
