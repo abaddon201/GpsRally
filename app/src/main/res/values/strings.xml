@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GpsRally</string>
+    <string name="avg_speed">AvgSpeed</string>
+    <string name="distance">Distance</string>
+    <string name="full_distance">Full distance</string>
+    <string name="number">Number</string>
+    <string name="speed">Speed</string>
+    <string name="time">Time</string>
+</resources>
