@@ -1,6 +1,9 @@
 package com.glebov.gpsrally;
 
+import android.content.Intent;
 import android.database.Cursor;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.InputFilter;
@@ -73,8 +76,11 @@ public class MainActivity extends AppCompatActivity {
             public boolean onItemLongClick(AdapterView<?> arg0, View v,
                                            int index, long arg3) {
                 Toast.makeText(MainActivity.this, "long tap", Toast.LENGTH_SHORT).show();
-                return false;
+                Intent intent = new Intent(MainActivity.this, EditRouteActivity.class);
+                startActivity(intent);
+                return true;
             }
         });
     }
+
 }
