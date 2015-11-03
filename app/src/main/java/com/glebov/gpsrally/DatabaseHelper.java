@@ -32,10 +32,10 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                     KEY_ROWID + " integer PRIMARY KEY autoincrement," +
                     KEY_ROUTE_NUM + "," +
                     KEY_NUM + "," +
-                    KEY_DISTANCE + "," +
                     KEY_FULL_DISTANCE + "," +
-                    KEY_TIME + "," +
+                    KEY_DISTANCE + "," +
                     KEY_AVGSPEED + "," +
+                    KEY_TIME + "," +
                     " UNIQUE (" + KEY_ROUTE_NUM + "," + KEY_NUM + "));";
 
     private final Context mCtx;
